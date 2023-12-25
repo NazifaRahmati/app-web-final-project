@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Sparkel Jewllary</title>
+    <style>
+        body{
+            background: url(bodybackground.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+        }
+        .about-container{
+            width: 75%;
+            margin-right: auto;
+            margin-left: auto;
+            background: url(formBackground.jpg);
+            border-radius: 20px;
+            background-size: cover;
+        }
+        .about-container .about-item img{
+            height: auto;
+            width: 400px;
+            max-width: 100%;
+            margin: 10px;
+            border-radius: 50px;
+        }
+        .about-text{
+            width: 550px;
+            max-width: 100%;
+            padding: 0 10px;
+        }
+        .about-text h1{
+            color: black;
+            font-size: 60px;
+            margin-top: 40%;
+            text-transform: capitalize;
+        }
+        .about-item{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .about-text p{
+            color: black;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+        <form action="gallery.html" class="search-bar">
+            <input type="text" placeholder="Search here...">
+            <button>
+                <img src="searchicon.png" alt="">
+            </button>
+        </form>
+    </header>  
+    <div class="about-container">
+        <div class="about-item">
+            <img src="about.png" alt="">
+            <div class="about-text">
+                <h1>The Sparkel Jewllary</h1>
+                <p>
+                    Wellcome to the Sparkel Jewllary. The Sparkel Jewllary is a global online marketplace, where people come together to make, sell, buy, and collect unique items. We're also a community pushing for positive change for small businesses, people, and the planet.
+                </p>
+                <p>
+                    There's no warehouse - just millions of people selling the things they love. We make the whole process easy.
+                </p>
+                <p>
+                    Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always ready to step in for support.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        Nazifa Rahmati
+    </footer>
+     
+</body>
+</html>
